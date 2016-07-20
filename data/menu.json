@@ -1,0 +1,44 @@
+{
+    
+    "Menu" : [
+        {
+            "name" :"Chicken Biriyani",
+            "Price" : 244,
+             "NoOfPeople" : 2,
+            "Details" :"Chicken and basmati rice cooked in layers,flavoured with saffron,served with raita and mirchi-ka-salan"
+        },
+        {
+            "name" :"Mutton Biriyani",
+            "Price" : 254,
+             "NoOfPeople" : 2,
+            "Details" :"An aromatic mixture of rice,lamb,saffron,herbs and spices,servedwith raita and mirchi-ka-salan"
+        },
+        {
+            "name" :"Egg Biriyani",
+            "Price" : 200,
+             "NoOfPeople" : 2,
+            "Details" :"A seasoned mixture of egg and basmati rice,served with raita and mirchi-ka-salan"
+        },
+        {
+            "name" :"Special Biriyani",
+            "Price" : 860,
+             "NoOfPeople" : 4,
+            "Details" :"A rare combination of chicken and lamb with saffron,,served with raita and mirchi-ka-salan"
+        },
+        {
+            "name" :"Special supreme Chicken Biriyani",
+            "Price" : 986,
+             "NoOfPeople" : 5,
+            "Details" :"A magnificent,extra-large portion of Wworld's Favourite Biriyani. Great for sharing"
+        },
+        {
+            "name" :"Veg Biriyani",
+            "Price" : 200,
+             "NoOfPeople" : 2,
+            "Details" :"Fresh vegetables and basmati rice cooked in layers,flavoured with saffron,served with raita and mirchi-ka-salan"
+        }
+        
+        
+        
+    ]
+}

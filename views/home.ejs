@@ -25,19 +25,15 @@
 
 <div class="login">
 	<h1>WELCOME</h1>
-    <form class="form-horizontal" role="form" action="/menu" method="post">
-    	<input type="text"  id="name" placeholder="Enter your name" name="name">
-         <div class='form-row'>
-              <div class='col-md-12 error form-group hide'>
-                <div class='alert-danger alert'>
-                  Please correct the errors and try again.
-                </div>
-              </div>
-            </div>
+    <form class="form-horizontal user" role="form" action="/menu" method="post">
+    	<input type="text"  id="name" placeholder="Enter your name" name="name" onkeypress="return checkUser()" />
+        <label class="error1 hide">
+            Name is required
+        </label>
 
        
-               <input type="text"  id="mob" placeholder="Enter mobile no" name="mob" maxlength="10" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-        <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+               <input type="text"  id="mob" placeholder="Enter mobile no" name="mob" maxlength="10" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
+        <button type="submit" class="btn btn-primary btn-block btn-large" onClick="return login()" >Let me in.</button>
     </form>
 </div>
 

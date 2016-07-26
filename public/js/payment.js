@@ -1,4 +1,12 @@
 $(function() {
+    
+    /* login form validation*/
+   
+    
+    
+
+    
+    
   $('form.require-validation').bind('submit', function(e) {
     var $form         = $(e.target).closest('form'),
         inputSelector = ['input[type=email]', 'input[type=password]',

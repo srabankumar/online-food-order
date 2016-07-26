@@ -15,7 +15,12 @@ table.table.table-condensed,a.name
 {
   color:white
 }
-
+.error1
+{
+   font-size:13px !important;
+   color:red !important;
+   /*display:none;*/
+}
 
 div.invoice_head
 {

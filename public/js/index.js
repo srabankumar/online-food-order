@@ -1,7 +1,42 @@
 var totalBills = 0;
 var userSelectionList = [];
+  
+/*login validation */
 
 
+ function checkUser()
+    {
+        
+       if(event.charCode>=48 && event.charCode<=57)
+       {
+         $('.error1').html("characters only");
+          $('.error1').removeClass("hide");
+         return false;
+       }
+        else
+        {
+            $('.error1').addClass("hide");
+        }
+    }
+function login()
+{
+
+   var userName = $("#name").val();
+    if(!userName)
+    {
+        $('.error1').html("Name is required");
+        $('.error1').removeClass("hide");
+        return false;
+    }
+}
+    
+
+/* login validation end */
+    
+
+   
+    
+ 
 /*if($("#total").val())
     {
         totalBills = parseInt($("#total").val(),10);
